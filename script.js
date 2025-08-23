@@ -13,3 +13,10 @@ localStorage.setItem('user', userJSON); // сохраняем строку
 
 const storedUser = localStorage.getItem('user');
 const parsedUser = JSON.parse(storedUser); // преобразуем строку обратно в объект
+
+const user1 = { name: 'Alice', age: 25, isLoggedIn: true };
+const userJSON1 = JSON.stringify(user); // преобразуем объект в строку
+localStorage.setItem('user', userJSON); // сохраняем строку
+
+const storedUser1 = localStorage.getItem('user');
+const parsedUser1 = JSON.parse(storedUser); // преобразуем строку обратно в объект
