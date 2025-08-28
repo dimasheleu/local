@@ -40,6 +40,56 @@ if (storedUser) {
   localStorage.setItem("user", JSON.stringify(newUser));
   console.log("Новый пользователь создан и сохранён:", newUser);
 }
+
+const storedUser = localStorage.getItem("user");
+
+if (storedUser) {
+  // 2. Если данные существуют → парсим и выводим
+  const parsedUser = JSON.parse(storedUser);
+  console.log("Пользователь найден:", parsedUser);
+} else {
+  // 3. Если данных нет → создаём нового и сохраняем
+  const newUser = {
+    name: "Dimash",
+    age: 18,
+    student: "ENUcollege"
+  };
+  localStorage.setItem("user", JSON.stringify(newUser));
+  console.log("Новый пользователь создан и сохранён:", newUser);
+}
+
+const storedUser = localStorage.getItem("user");
+
+if (storedUser) {
+  // 2. Если данные существуют → парсим и выводим
+  const parsedUser = JSON.parse(storedUser);
+  console.log("Пользователь найден:", parsedUser);
+} else {
+  // 3. Если данных нет → создаём нового и сохраняем
+  const newUser = {
+    name: "Dimash",
+    age: 18,
+    student: "ENUcollege"
+  };
+  localStorage.setItem("user", JSON.stringify(newUser));
+  console.log("Новый пользователь создан и сохранён:", newUser);
+}
+const storedUser = localStorage.getItem("user");
+
+if (storedUser) {
+  // 2. Если данные существуют → парсим и выводим
+  const parsedUser = JSON.parse(storedUser);
+  console.log("Пользователь найден:", parsedUser);
+} else {
+  // 3. Если данных нет → создаём нового и сохраняем
+  const newUser = {
+    name: "Dimash",
+    age: 18,
+    student: "ENUcollege"
+  };
+  localStorage.setItem("user", JSON.stringify(newUser));
+  console.log("Новый пользователь создан и сохранён:", newUser);
+}
 //6-задание
 //7-задание
 //8-задание
