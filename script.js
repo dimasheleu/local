@@ -48,3 +48,38 @@ if (storedUser) {
 //7-задание
 //8-задание
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/3-задание
+const user = {
+  name: 'Dimash',
+  age: 18,
+  student: 'ENUcollege'
+};
+const userJSON = JSON.stringify(user);
+localStorage.setItem('user', userJSON);
+const storedUserJSON = localStorage.getItem('user');
+const parsedUser = JSON.parse(storedUserJSON);
+//4-задание
+parsedUser.country = 'Kazakhstan';
+localStorage.setItem('user', JSON.stringify(parsedUser));
+const storedUserJSON1 = localStorage.getItem('user');
+const parsedUser1 = JSON.parse(storedUserJSON1);
+console.log(parsedUser1);
