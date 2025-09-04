@@ -72,3 +72,150 @@ localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
 const storedTask1 = localStorage.getItem('user');
 const parsedTask1 = JSON.parse(storedTask1);
 console.log(parsedTask1);
+console.log("LocalStorage пустой");
+} else {
+  console.log("Данные остались:", CheckData);
+}
+//7-задание
+const taskcompleted = [
+  { title: "Забрать с школы сестренку", completed: true },
+  { title: "Cделать домашку", completed: true },
+  { title: "Поиграть футбол в 19:00", completed: false }
+];
+
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask = localStorage.getItem('taskcompleted');
+const parsedTask = JSON.parse(storedTask);
+console.log(parsedTask);
+//8-задание
+parsedTask[2].completed = true;
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask1 = localStorage.getItem('user');
+const parsedTask1 = JSON.parse(storedTask1);
+console.log(parsedTask1);
+console.log("LocalStorage пустой");
+} else {
+  console.log("Данные остались:", CheckData);
+}
+//7-задание
+const taskcompleted = [
+  { title: "Забрать с школы сестренку", completed: true },
+  { title: "Cделать домашку", completed: true },
+  { title: "Поиграть футбол в 19:00", completed: false }
+];
+
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask = localStorage.getItem('taskcompleted');
+const parsedTask = JSON.parse(storedTask);
+console.log(parsedTask);
+//8-задание
+parsedTask[2].completed = true;
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask1 = localStorage.getItem('user');
+const parsedTask1 = JSON.parse(storedTask1);
+console.log(parsedTask1);
+console.log("LocalStorage пустой");
+} else {
+  console.log("Данные остались:", CheckData);
+}
+//7-задание
+const taskcompleted = [
+  { title: "Забрать с школы сестренку", completed: true },
+  { title: "Cделать домашку", completed: true },
+  { title: "Поиграть футбол в 19:00", completed: false }
+];
+
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask = localStorage.getItem('taskcompleted');
+const parsedTask = JSON.parse(storedTask);
+console.log(parsedTask);
+//8-задание
+parsedTask[2].completed = true;
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask1 = localStorage.getItem('user');
+const parsedTask1 = JSON.parse(storedTask1);
+console.log(parsedTask1);
+console.log("LocalStorage пустой");
+} else {
+  console.log("Данные остались:", CheckData);
+}
+//7-задание
+const taskcompleted = [
+  { title: "Забрать с школы сестренку", completed: true },
+  { title: "Cделать домашку", completed: true },
+  { title: "Поиграть футбол в 19:00", completed: false }
+];
+
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask = localStorage.getItem('taskcompleted');
+const parsedTask = JSON.parse(storedTask);
+console.log(parsedTask);
+//8-задание
+parsedTask[2].completed = true;
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask1 = localStorage.getItem('user');
+const parsedTask1 = JSON.parse(storedTask1);
+console.log(parsedTask1);
+console.log("LocalStorage пустой");
+} else {
+  console.log("Данные остались:", CheckData);
+}
+//7-задание
+const taskcompleted = [
+  { title: "Забрать с школы сестренку", completed: true },
+  { title: "Cделать домашку", completed: true },
+  { title: "Поиграть футбол в 19:00", completed: false }
+];
+
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask = localStorage.getItem('taskcompleted');
+const parsedTask = JSON.parse(storedTask);
+console.log(parsedTask);
+//8-задание
+parsedTask[2].completed = true;
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask1 = localStorage.getItem('user');
+const parsedTask1 = JSON.parse(storedTask1);
+console.log(parsedTask1);
+console.log("LocalStorage пустой");
+} else {
+  console.log("Данные остались:", CheckData);
+}
+//7-задание
+const taskcompleted = [
+  { title: "Забрать с школы сестренку", completed: true },
+  { title: "Cделать домашку", completed: true },
+  { title: "Поиграть футбол в 19:00", completed: false }
+];
+
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask = localStorage.getItem('taskcompleted');
+const parsedTask = JSON.parse(storedTask);
+console.log(parsedTask);
+//8-задание
+parsedTask[2].completed = true;
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask1 = localStorage.getItem('user');
+const parsedTask1 = JSON.parse(storedTask1);
+console.log(parsedTask1);
+console.log("LocalStorage пустой");
+} else {
+  console.log("Данные остались:", CheckData);
+}
+//7-задание
+const taskcompleted = [
+  { title: "Забрать с школы сестренку", completed: true },
+  { title: "Cделать домашку", completed: true },
+  { title: "Поиграть футбол в 19:00", completed: false }
+];
+
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask = localStorage.getItem('taskcompleted');
+const parsedTask = JSON.parse(storedTask);
+console.log(parsedTask);
+//8-задание
+parsedTask[2].completed = true;
+localStorage.setItem('taskcompleted', JSON.stringify(taskcompleted));
+const storedTask1 = localStorage.getItem('user');
+const parsedTask1 = JSON.parse(storedTask1);
+console.log(parsedTask1);
